@@ -49,7 +49,7 @@ export const HomePage = () => {
                         <Col key={pin.id} xs={12} md={2}>
                             <CardContainer {...pin}/>
                         </Col>   
-                    ))};
+                    ))}
                 </Row>
             </Container>
         </div>
